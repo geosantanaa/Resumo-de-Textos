@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000  # tempo máximo de conexão em ms
+        readTimeout: 10000    # tempo máximo de leitura em ms
+  api:
+    name: "API-Resumo"
+    url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent"
+
