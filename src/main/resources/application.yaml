@@ -9,5 +9,5 @@ feign:
         readTimeout: 10000    # tempo máximo de leitura em ms
   api:
     name: "API-Resumo"
-    url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent"
+    url: "https://api-inference.huggingface.co/models/facebook/bart-large-cnn"
 
